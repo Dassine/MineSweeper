@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>536DD055-51EB-4269-A9E1-869689ED8A31</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>536DD055-51EB-4269-A9E1-869689ED8A31.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MineSweeper project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MineSweeper</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>592842610.98386395</real>
+			<key>timeStoppedRecording</key>
+			<real>592842611.466802</real>
+			<key>title</key>
+			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>536DD055-51EB-4269-A9E1-869689ED8A31</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
