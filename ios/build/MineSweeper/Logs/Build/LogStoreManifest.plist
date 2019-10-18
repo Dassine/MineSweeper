@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>536DD055-51EB-4269-A9E1-869689ED8A31</key>
+		<key>6294C5D2-BA88-4409-91E2-780551F41E01</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>536DD055-51EB-4269-A9E1-869689ED8A31.xcactivitylog</string>
+			<string>6294C5D2-BA88-4409-91E2-780551F41E01.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,47 @@
 			<key>signature</key>
 			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>592842610.98386395</real>
+			<real>593090721.50098705</real>
 			<key>timeStoppedRecording</key>
-			<real>592842611.466802</real>
+			<real>593090722.01382601</real>
 			<key>title</key>
 			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>536DD055-51EB-4269-A9E1-869689ED8A31</string>
+			<string>6294C5D2-BA88-4409-91E2-780551F41E01</string>
+		</dict>
+		<key>7F18BE4B-FB23-432E-B5FD-5588683F0BA9</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7F18BE4B-FB23-432E-B5FD-5588683F0BA9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MineSweeper project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MineSweeper</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>593089727.622931</real>
+			<key>timeStoppedRecording</key>
+			<real>593089728.26267302</real>
+			<key>title</key>
+			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>7F18BE4B-FB23-432E-B5FD-5588683F0BA9</string>
 		</dict>
 	</dict>
 </dict>
