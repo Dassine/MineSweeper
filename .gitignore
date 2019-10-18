@@ -1,0 +1,77 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Test and build artifacts
+target
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# local development environment variables file
+.env
+
+# MacOS created this at random times
+.DS_Store
+# Logs
+*.log
+npm-debug.log*
+
+# Test and build artifacts
+target
+
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Optional npm cache directory
+.npm
+
+# local development environment variables file
+.env
+
+# MacOS created this at random times
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+#CocoaPods
+Pods
+Podfile.lock
+
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# Bundle artifact
+*.jsbundle
+

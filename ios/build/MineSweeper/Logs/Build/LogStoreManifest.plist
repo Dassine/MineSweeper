@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5632BD3E-2699-49DF-99DF-C030DD22041F</key>
+		<key>206CFF14-2DF4-4B2E-82FC-EABA049E57C5</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5632BD3E-2699-49DF-99DF-C030DD22041F.xcactivitylog</string>
+			<string>206CFF14-2DF4-4B2E-82FC-EABA049E57C5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,13 @@
 			<key>signature</key>
 			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>593091435.95185304</real>
+			<real>593092228.87758696</real>
 			<key>timeStoppedRecording</key>
-			<real>593091442.22322595</real>
+			<real>593092234.69767499</real>
 			<key>title</key>
 			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>5632BD3E-2699-49DF-99DF-C030DD22041F</string>
+			<string>206CFF14-2DF4-4B2E-82FC-EABA049E57C5</string>
 		</dict>
 	</dict>
 </dict>
