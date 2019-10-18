@@ -6,11 +6,11 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<data>
-		pKaXRrj9j2BozF9fq8ZyxaX4AeE=
+		xWMNmh9qPGgFoKDNMnXULFfz+yA=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<data>
-		QMHHJ/XdaDVeT2zEP2gZ4gypdiQ=
+		wcRk7MwlMinkXmzIjaDDOs+rx08=
 		</data>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
 		<data>
@@ -83,7 +83,7 @@
 		</data>
 		<key>PlugIns/MineSweeperTests.xctest/MineSweeperTests</key>
 		<data>
-		8TCAdMQ23IIjOUlL9UYtY2HKipM=
+		jlZTxsDEfR8R84R4FL0oT83xYr4=
 		</data>
 		<key>PlugIns/MineSweeperTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -96,22 +96,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pKaXRrj9j2BozF9fq8ZyxaX4AeE=
+			xWMNmh9qPGgFoKDNMnXULFfz+yA=
 			</data>
 			<key>hash2</key>
 			<data>
-			cJinEL7iBhkQ5mp6e8c0c6xkp4MNUCCn0Brrp08oYFE=
+			h7xRnQzgufc4SFL0YetRUvt/a+PGz+lRtwTXaecEGZ0=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QMHHJ/XdaDVeT2zEP2gZ4gypdiQ=
+			wcRk7MwlMinkXmzIjaDDOs+rx08=
 			</data>
 			<key>hash2</key>
 			<data>
-			PbPEQTug8T2/pJP0HHTQCUscrUtrBjQSkB97371bfy4=
+			u4zbEXnI+7y6Tcz2aUU8yV593tNgIu/rujE5aex6dYU=
 			</data>
 		</dict>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
@@ -274,11 +274,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8TCAdMQ23IIjOUlL9UYtY2HKipM=
+			jlZTxsDEfR8R84R4FL0oT83xYr4=
 			</data>
 			<key>hash2</key>
 			<data>
-			djKHaEeGBzEnk7Tqm6fzdcsLGrEDxWmAKAgFqqnNPxw=
+			H+hY4hfi3cbTv/mAJjOw2ybqSyCf0VLT14lZcc/ssiI=
 			</data>
 		</dict>
 		<key>PlugIns/MineSweeperTests.xctest/_CodeSignature/CodeResources</key>
