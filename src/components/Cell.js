@@ -23,6 +23,7 @@ const Cell = forwardRef((props, ref) => {
       (cellRef.current = ref),
       {
         isMine,
+        isRevealed,
         setIsRevealed,
         setIsMine,
         setNeighbors,

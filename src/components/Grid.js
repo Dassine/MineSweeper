@@ -1,9 +1,23 @@
-import React from 'react';
-import { StyleSheet, View, Button } from 'react-native';
+import React, { useState, useEffect, useReducer } from 'react';
+import { StyleSheet, View, Button, Text } from 'react-native';
 
 import Colors from '../rsc/utils/Colors';
 import Constants from '../rsc/utils/Constants';
 import Cell from './Cell';
+import DisplayModal from './DisplayModal';
+
+//Reducer Hook to count the number of revealed cells
+const initialState = 0;
+const reducer = (state, action) => {
+  switch (action) {
+    case 'increment':
+      return state + 1;
+    case 'reset':
+      return 0;
+    default:
+      throw new Error('Unexpected action');
+  }
+};
 
 const Grid = () => {
   grid = Array.apply(null, Array(Constants.GRID_SIZE)).map(() => {
@@ -11,6 +25,42 @@ const Grid = () => {
       return null;
     });
   });
+
+  let minedCellsTotal = 0;
+
+  //Moday state
+  const [display, setDisplay] = useState(false);
+  //State and Reducer Hook to count the number of revealed cells and detect Game Over state
+  const [revealedCount, dispatch] = useReducer(reducer, initialState);
+  const [isGameOver, setIsGameOver] = useState(false);
+
+  useEffect(() => {
+    //Display "You Lose"
+    if (isGameOver) setDisplay(true);
+  }, [isGameOver]);
+
+  useEffect(() => {
+    //Verify that all unmined cells are revealed and display "You Win"
+    if (minedCellsTotal == 0) minedCellsTotal = getMinedCells().length;
+    if (
+      !isGameOver &&
+      minedCellsTotal + revealedCount ==
+        Constants.GRID_SIZE * Constants.GRID_SIZE
+    )
+      setDisplay(true);
+  }, [revealedCount]);
+
+  getMinedCells = () => {
+    let minedCells = [];
+    grid.map(elt => {
+      elt.map(elt => {
+        if (elt.isMine) {
+          minedCells.push(elt);
+        }
+      });
+    });
+    return minedCells;
+  };
 
   getNeighborCells = (x, y) => {
     let neighborCells = [];
@@ -29,25 +79,33 @@ const Grid = () => {
   };
 
   onReveal = (x, y) => {
-    let neighbors = 0;
+    dispatch('increment');
+    let minedNeighbors = 0;
     let cells = getNeighborCells(x, y);
 
     cells.filter(elt => {
       if (elt.isMine) {
-        neighbors++;
+        minedNeighbors++;
       }
     });
 
-    if (neighbors) {
-      grid[x][y].setNeighbors(neighbors);
+    //Set Neighbors and reveal cells
+    if (minedNeighbors) {
+      grid[x][y].setNeighbors(minedNeighbors);
     } else {
       cells.map(elt => {
-        elt.onReveal(false);
+        elt.setIsRevealed(true);
       });
     }
   };
 
   onMine = () => {
+    // Set GameOver to true and reset the revealed cells count
+    if (!isGameOver) {
+      dispatch('reset');
+      setIsGameOver(true);
+    }
+    //reveal all cells
     grid.map(elt => {
       elt.map(elt => {
         elt.setIsRevealed(true);
@@ -56,6 +114,10 @@ const Grid = () => {
   };
 
   resetGame = () => {
+    //Set GameOver to false and reset the revealed cells count
+    dispatch('reset');
+    setIsGameOver(false);
+    //reset all cells
     grid.map(elt => {
       elt.map(elt => {
         elt.setIsRevealed(false);
@@ -63,6 +125,12 @@ const Grid = () => {
         elt.setNeighbors(null);
       });
     });
+  };
+
+  retry = () => {
+    //Dismiss the modal and reset the game
+    setDisplay(false);
+    resetGame();
   };
 
   renderGrid = () => {
@@ -90,11 +158,17 @@ const Grid = () => {
     });
   };
 
-  const { container, gridContainer } = styles;
+  const { container, gridContainer, text } = styles;
   return (
     <View style={container}>
+      <Text style={text}>LDB MineSweeper</Text>
       <View style={gridContainer}>{renderGrid()}</View>
       <Button title="Start A New Game " color="black" onPress={resetGame} />
+      <DisplayModal
+        data={isGameOver ? 'You Lose' : 'You Win'}
+        display={display}
+        onClose={retry}
+      />
     </View>
   );
 };
@@ -115,6 +189,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     width: Constants.GRID_WIDTH,
     height: Constants.CELL_SIZE,
+  },
+  text: {
+    textAlign: 'center',
+    fontWeight: 'bold',
+    color: 'black',
+    fontSize: 24,
+    margin: 10,
   },
 });
 
