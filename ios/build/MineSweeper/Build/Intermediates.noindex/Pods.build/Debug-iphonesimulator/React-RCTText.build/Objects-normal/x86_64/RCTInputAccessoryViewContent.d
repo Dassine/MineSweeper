@@ -1,8 +1,0 @@
-dependencies: \
-  /Users/liliadassinebelaid/LEARNING/Programming/Interviews/FreshPlanet/github/MineSweeper/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.m \
-  /Users/liliadassinebelaid/LEARNING/Programming/Interviews/FreshPlanet/github/MineSweeper/ios/Pods/Target\ Support\ Files/React-RCTText/React-RCTText-prefix.pch \
-  /Users/liliadassinebelaid/LEARNING/Programming/Interviews/FreshPlanet/github/MineSweeper/ios/Pods/Headers/Public/React-Core/React/RCTInputAccessoryViewContent.h \
-  /Users/liliadassinebelaid/LEARNING/Programming/Interviews/FreshPlanet/github/MineSweeper/ios/Pods/Headers/Public/React-Core/React/UIView+React.h \
-  /Users/liliadassinebelaid/LEARNING/Programming/Interviews/FreshPlanet/github/MineSweeper/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
-  /Users/liliadassinebelaid/LEARNING/Programming/Interviews/FreshPlanet/github/MineSweeper/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
-  /Users/liliadassinebelaid/LEARNING/Programming/Interviews/FreshPlanet/github/MineSweeper/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h
