@@ -5,41 +5,6 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict>
-		<key>E65905E5-EC28-4228-9F4F-F57711BA0124</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E65905E5-EC28-4228-9F4F-F57711BA0124.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>MineSweeper project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>MineSweeper</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>593189207.55732596</real>
-			<key>timeStoppedRecording</key>
-			<real>593189208.146631</real>
-			<key>title</key>
-			<string>Building workspace MineSweeper with scheme MineSweeper and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>E65905E5-EC28-4228-9F4F-F57711BA0124</string>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
